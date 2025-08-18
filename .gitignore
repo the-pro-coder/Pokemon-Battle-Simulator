@@ -1,0 +1,4 @@
+.vscode/
+build/js/
+*.js.map
+.env
