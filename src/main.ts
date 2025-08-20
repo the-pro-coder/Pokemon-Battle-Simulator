@@ -127,14 +127,14 @@ const battle = (p1:(Pokemon | undefined), p2:(Pokemon | undefined), stackSize:nu
             if (typeof p !== "undefined"){
                 phrase = p;
             } 
-            log("h3", phrase)
+            log("h5", phrase)
         }
         if (random(10) + Math.floor(p1?.speed / p2.speed) > 8) {
             let p = GetPhrase("evade", p1.name, p2.name);
             if (typeof p !== "undefined"){
                 phrase = p;
             } 
-            log("h3", phrase)
+            log("h5", phrase)
             p1HpAfterHurt = p1.hp;
         }
         else
